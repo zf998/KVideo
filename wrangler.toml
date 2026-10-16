@@ -8,3 +8,8 @@ compatibility_flags = ["nodejs_compat"]
 
 [vars]
 # Environment variables can be set here or in Cloudflare Dashboard
+
+[[d1_databases]]
+binding = "DB"               # 这是你在代码中访问数据库用的变量名，如 env.DB
+database_name = "kvideo-db"  # 你在 Cloudflare 控制台创建的数据库名称
+database_id = "93e1804d-1231-4776-a0e5-a0d8ead67ff0" # ⚠️ 这里填入你刚才复制的实际 Database ID
